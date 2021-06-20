@@ -1,0 +1,527 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Noto Sans JP', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+h1{
+	font-size: 30px;
+}
+
+#swapper{
+	width: 100%;
+}
+
+header{
+	width: 100%;
+	height: 230px;
+/*	background: yellow;*/
+}
+.container{
+	width :80%;
+	margin: 0 auto;
+/*	background: rgba(186,223,91,1.00);*/
+}
+.tophd{
+	width: 100%;
+	height: 15%;
+	background: black;
+}
+
+.tophd ul {
+	text-align: right;
+	list-style: none;
+	
+}
+.tophd ul li{
+	display: inline-block;
+/*	background: blue;*/
+	line-height: 30px;
+	margin-left: 2%;
+}
+
+.tophd ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+.mainhd{
+	width: 100%;
+	height: 100px;
+	background: #E9E9E9;
+/*	padding-top: 10px;*/
+/*	box-sizing: border-box;*/
+}
+
+.logo{
+	width: 20%;
+	height: 100px;
+/*	background: #14C781;*/
+	float: left;
+
+}
+.logo img{
+	height: 80%;
+	line-height:100px;
+	margin: 10px 0 ;
+
+	
+	
+}
+.menu{
+	width: 50%;
+	height: 100px;
+/*	background: #44E4E1;*/
+	float: left;
+	border-left: 1px solid #111111;
+	border-right: 1px solid #111111;
+	box-sizing: border-box;
+	
+}
+
+.menu ul{
+	list-style: none;
+}
+
+.menu ul li{
+	float:left;
+	line-height: 100px;
+	margin: 0 6%;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	transition-duration: 0.5s;
+	
+}
+.menu ul li a:hover{
+/*	background: black;*/
+/*	color: white;*/
+	border-bottom: 2px solid #111111;
+	font-size: 24px;
+}
+
+.search{
+	height: 100px;
+	width: 30%;
+	float: left;
+/*	background: aqua;*/
+	padding-top: 35px;
+	box-sizing: border-box;
+
+
+}
+.s-tool{
+	height: 30px;
+	width: 70%;
+	background: white;
+/*	border: 1px solid #2B2B2B;*/
+	float: right;
+	border-radius: 15px;
+	
+
+	
+}
+
+.s-tool p{
+	line-height: 30px;
+	margin-left: 10px
+}
+
+.footerhd{
+	width: 100%;
+	height: 100px;
+	background: black;
+	padding-top: 38px;
+	box-sizing: border-box;
+}
+.footerhd span{
+	font-size: 24px;
+	line-height: 24px;
+	color:white;
+	letter-spacing: 2px;
+	
+}
+.contentfhd{
+/*	background: blue;*/
+	height: 24px;
+	width: 195px;
+	margin: 0 auto;
+}
+
+
+.banner{
+	width: 100%;
+	height: 800px;
+/*	background: red;*/
+	background: url("../IMG/adidas-Yeezy-Boost-350-V2-Mono-Clay.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.contentBN{
+	width: 50%;
+	height: 1000px;
+/*	line-height: 1000px;*/
+/*	background: yellow;*/
+	padding-top: 200px;
+	box-sizing: border-box;
+}
+
+.contentBN h1{
+	font-size: 50px;
+/*	line-height: 1000px;*/
+}
+.contentBN p{
+/*	background: yellow;*/
+	margin: 20px auto;
+}
+
+.buttonBN{
+/*
+	width: 500px;
+	height: 50px;
+*/
+	background: black;
+	line-height: 50px;
+	color: white;
+	text-decoration: none;
+	padding: 10px 50px;
+	transition-duration: 0.5s;
+}
+
+
+
+.buttonBN:hover{
+	background: white;
+	color: black;
+	border: 2px solid #1F1F1F
+	
+}
+
+.space1{
+	width: 100%;
+	height: auto;
+	background: #262626;
+	background-size: cover;
+	overflow: hidden;
+}
+.background1{
+	width: 100%;
+	height: 1000px;
+	background: url("../IMG/ddd.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.object{
+	width: 100%;
+	height: 50px;
+	
+}
+
+.object h1{
+	line-height: 50px;
+	color: white;
+}
+
+.object a{
+	text-decoration: none;
+	color: white;
+	font-size: 70px;
+	font-weight: 500;
+/*	background: blue;*/
+}
+
+
+.space2{
+	width: 100%;
+	height: auto;
+/*	background: #262626;*/
+	background-size: cover;
+	overflow: hidden;
+	box-sizing: border-box;
+	
+}
+
+
+.box1{
+/*
+	width: 730px;
+	height: 730px;
+*/
+	width: 50%;
+	height: 730px;
+	background: url("../IMG/bfac8dc84cd08320ba0100137aebc0a9.jpg");
+	background-size: cover;
+	float: left;
+/*	margin-top: 10px;*/
+
+}
+
+.box2{
+	width: 24%;
+	height: 295px;
+	background:url("../IMG/344df7b37fa73905c4fe4f5ca9320f79.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+	margin-left: 1%;
+	margin-bottom: 1%;
+	overflow: hidden;
+}
+
+
+.box3{
+	width: 24%;
+	height: 295px;
+	background: url("../IMG/8cd4e8d397df1ad63051e9d3f5f67bcb.jpg");
+	float: right;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-left: 1%;
+	margin-bottom: 1%;
+}
+
+.box4{
+	width: 24%;
+	height: 295px;
+	background: url("../IMG/SST_Track_Jacket_Black_CW1256_01_laydown.jpg");
+	float: left;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-left: 1%;
+	margin-bottom: 8px;
+}
+
+.box5{
+	width: 24%;
+	height: 295px;
+	background: url("../IMG/Giay_Slip_Court_Rallye_trang_FY4550_02_standard_hover.jpg");
+	float: left;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-left: 1%;
+	margin-bottom: 8px;
+}
+
+.box6{
+/*	background: blue;*/
+	width: 46%;
+	float: left;
+	margin-left: 1%;
+	height: 120px;
+}
+
+.space2 a{
+	text-decoration: none;
+	color: black;
+	font-size: 58px;
+/*
+	margin-left: 1%;
+	margin-top: 1%;
+*/
+/*	background: blue;*/
+}
+
+
+.space3{
+	width: 100%;
+	height: 820px;
+/*	background: #D8D8D8;*/
+	background-size: cover;
+	overflow: hidden;
+}
+
+.boxm{
+	width: 100%;
+	height: 500px;
+	background: url("../IMG/adidas_men_april_Carousel_Banner_996x350_3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 10px;
+}
+
+.boxm1{
+	width: 15%;
+	height: 300px;
+	background: url("../IMG/giày-cổ-thấp-forum.jpg");
+	background-size: cover;
+	float: right;
+	margin-left: 10px;
+}
+
+.boxm2{
+	width: 15%;
+	height: 300px;
+	background: url("../IMG/Ao_thun_ngan_tay_Tokyo_Pack_trang_GD5007_21_model.jpg");
+	background-size: cover;
+	float: right;
+	margin-left: 10px;
+}
+
+.boxm3{
+	width: 15%;
+	height: 300px;
+	background: url("../IMG/quần-ống-côn-ôm-sát-3-sọc-sereno-aeroready.jpg");
+	background-size: cover;
+	float: right;
+	margin-left: 10px;
+}
+
+.boxm4{
+	width: 15%;
+	height: 300px;
+	background: url("../IMG/Mu_Dad_Cap_Cotton_Tuy_Chinh_DJen_GT4803_01_standard.jpg");
+/*	background: black;*/
+	background-size: cover;
+	margin-left: 10px;
+	float: right;
+
+}
+
+/*
+.boxm5{
+	width: 46%;
+	float: left;
+	margin-left: 1%;
+	height: 120px;
+}
+*/
+
+
+.boxm5 a{
+	height: 300px;
+	width: 30%;
+	color: black;
+	font-size: 60px;
+/*	background: yellow;*/
+	float: left;
+	padding-top: 100px;
+/*	padding-left: 50px;*/
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+.boxw{
+	width: 100%;
+	height: 350px;
+	background: url("../IMG/adidas_women_april_Carousel_Banner_996x350_2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 10px;
+}
+
+.boxw1{
+	width: 15%;
+	height: 300px;
+	background: url("../IMG/giày-cổ-thấp-forum.jpg");
+	background-size: cover;
+	float: right;
+	margin-right: 10px;
+}
+
+.boxw2{
+	width: 15%;
+	height: 300px;
+	background: url("../IMG/344df7b37fa73905c4fe4f5ca9320f79.jpg");
+	background-size: cover;
+	background-position: center;
+	float: right;
+	margin-right: 10px;
+}
+
+.boxw3{
+	width: 15%;
+	height: 300px;
+	background:  url("../IMG/8cd4e8d397df1ad63051e9d3f5f67bcb.jpg");
+	background-size: cover;
+	float: right;
+	margin-right: 10px;
+}
+
+.boxw4{
+	width: 15%;
+	height: 300px;
+	background: url("../IMG/Mu_Dad_Cap_Cotton_Tuy_Chinh_DJen_GT4803_01_standard.jpg");
+	background-size: cover;
+	float: right;
+	margin-right: 10px;
+}
+
+.boxw5 a{
+	height: 300px;
+	width: 30%;
+	color: black;
+	font-size: 60px;
+/*	background: yellow;*/
+	float: left;
+	padding-top: 100px;
+/*	padding-left: 50px;*/
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+footer{
+	width: 100%;
+	height: 300px;
+	background: black;
+}
+
+
+.address1{
+	width: 100%;
+	height: 280px;
+/*	background: yellow;*/
+	padding-top: 20px;
+	float: left;
+	box-sizing: border-box;
+	
+}
+.address{
+	
+	height: auto;
+/*	background: blue;*/
+	float: left;
+	margin-right: 15%;
+
+}
+
+.address ul{
+	list-style: none;
+}
+
+.address ul li{
+	color: white;
+}
+
+.address h1{
+	color: white;
+}
+.logobct{
+	background: url("../IMG/logoSaleNoti.png");
+	background-size:200px;
+/*	background-position: center;*/
+	background-repeat: no-repeat;
+	width: 300px;
+	height: 100px;
+/*	background: pink;*/
+	float: left;
+	margin-top: 30px;
+}
+
